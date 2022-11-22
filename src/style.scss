@@ -1,0 +1,23 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ @font-face {
+	font-family: Gilbert;
+	src: url(../assets/gilbert-color.otf);
+	font-weight: 700;
+}
+
+.wp-block-create-block-starter-block {
+	font-family: Gilbert, sans-serif;
+	font-size: 64px;
+	display: inline-block;
+	width: 200px;
+	padding: 10px;
+	margin-right: 10px;
+	border: 1px solid black;
+	background-color: aliceblue;
+}
